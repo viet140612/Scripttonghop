@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/viet140612/Scripttonghop/refs/heads/main/script%20t%E1%BB%95ng%20h%E1%BB%A3p.lua"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/viet140612/Scripttonghop/refs/heads/main/load.lua"))()
 local Window = OrionLib:MakeWindow({Name = "Qviet", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
 local Tab = Window:MakeTab({
