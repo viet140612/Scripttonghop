@@ -1,5 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
-
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/viet140612/Scripttonghop/refs/heads/main/script%20t%E1%BB%95ng%20h%E1%BB%A3p.lua"))()
 local Window = OrionLib:MakeWindow({Name = "Qviet", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
 local Tab = Window:MakeTab({
@@ -23,7 +22,8 @@ Tab3:AddButton({
 	Name = "Teddy Hub",
 	Callback = function()
         repeat wait(5) until game:IsLoaded()
-	       repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+	       repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
 })
 
 
@@ -31,7 +31,7 @@ Tab2:AddButton({
 	Name = "Fix Lag Turbo",
 	Callback = function()
         repeat wait(5) until game:IsLoaded()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+     
 })
 
 Tab:AddButton({
@@ -64,8 +64,4 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/sofziol1fe/Script/refs/heads/main/main.luau"))()
   	end    
 })
-Tab:AddButton({
-	Name = "Red"
-	Callback = function()
-		loadstring(game:HttpGet("loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
-})
+		
